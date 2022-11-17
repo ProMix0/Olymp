@@ -7,7 +7,7 @@ int main()
 	int diffs = 0;
 	std::cin >> input;
 	long len = input.length();
-	for (int i = 0; i <= len ; i++)
+	for (int i = 0; i < len ; i++)
 	{
 		if (input[i] != input[len - i - 1])
 			diffs++;
