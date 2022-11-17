@@ -30,6 +30,6 @@ int main()
 	std::cin >> n >> k;
 	for (int i = 0; i < n; i++)
 		pads += "1";
-	std::cout << jump(0,n - 1,k,pads) << std::endl;
+	std::cout << jump(0, n - 1, k, pads) << std::endl;
 	return 0;
 }
